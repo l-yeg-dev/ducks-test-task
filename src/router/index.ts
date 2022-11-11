@@ -21,7 +21,7 @@ const router = createRouter({
       name: "gitRepo",
       component: { template: "<div>Redirect</div>" },
       beforeEnter() {
-        window.location.href = "https://google.com/contact";
+        window.location.href = "https://github.com/l-yeg-dev/ducks-test-task";
       },
     },
     {
