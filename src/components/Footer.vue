@@ -26,7 +26,7 @@
   color: #ffffff;
 }
 </style>
-<script>
+<script lang="ts">
 import Logo from "@/components/Header/Logo.vue";
 export default {
   components: { Logo },

@@ -28,7 +28,7 @@ export default defineComponent({
   },
   methods: {
     handleSearch: (event: InputEventExtended) => {
-      store.dispatch("searchUsers", event.target.value);
+      store.dispatch("searchUsers", event.target?.value);
     },
   },
 });

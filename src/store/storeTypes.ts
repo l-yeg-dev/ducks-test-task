@@ -27,5 +27,5 @@ export interface EventTargetExtended extends EventTarget {
   value?: string;
 }
 export interface InputEventExtended extends InputEventInit {
-  target: EventTargetExtended;
+  target: EventTargetExtended | null;
 }
